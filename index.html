@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="shortcut icon" href="images/logo.jpg" />
+<link rel="manifest" href="manifest.json">
 </head>
 <body>
 <div id="wrapper">
@@ -63,5 +64,23 @@
     <p>Телефон: +7-927-531-69-09</p>
     <p>Электронная почта: gubkintodo@mail.com</p>
 </div>
+<script src="app.js"></script>
+<script>
+       if ('serviceWorker' in navigator) {
+           window.addEventListener('load', function() {
+               navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                   // Registration was successful
+               console.log('ServiceWorker registration successful with scope: ', registration.scope);
+             }, function(err) {
+               // registration failed :(
+               console.log('ServiceWorker registration failed: ', err);
+             }).catch(function(err) {
+               console.log(err)
+             });
+           });
+         } else {
+           console.log('service worker is not supported');
+         }
+   </script>
 </body>
 </html>

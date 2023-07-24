@@ -1,0 +1,22 @@
+{
+ "short_name": "Gubkin",
+ "name": "Gubkin To-Do",
+ "icons": [
+   {
+     "src":"128.jpg",
+     "sizes": "128x128",
+     "type": "image/png"
+   },
+   {
+     "src":"imgonline-com-ua-Resize-J5L5AnFvXv4gA.jpg",
+     "sizes": "512x511",
+     "type": "image/png"
+   }
+ ],
+
+ "start_url": "/app/",
+ "background_color": "#7ACCE5",
+ "theme_color": "#7ACCE5",
+ "orientation": "any",
+ "display": "standalone"
+}
