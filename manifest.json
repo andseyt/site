@@ -3,18 +3,23 @@
  "name": "Gubkin To-Do",
  "icons": [
    {
-     "src":"128.jpg",
+     "src":"128.png",
      "sizes": "128x128",
      "type": "image/png"
    },
    {
-     "src":"imgonline-com-ua-Resize-J5L5AnFvXv4gA.jpg",
-     "sizes": "512x511",
+     "src":"imgonline-com-ua-Resize-Pc1n0ejBNQYunI.png",
+     "sizes": "144x144",
+     "type": "image/png"
+   },
+   {
+     "src":"imgonline-com-ua-Resize-mH38bCfaJcU2.png",
+     "sizes": "512x512",
      "type": "image/png"
    }
  ],
 
- "start_url": "/app/",
+ "start_url": "/site/",
  "background_color": "#7ACCE5",
  "theme_color": "#7ACCE5",
  "orientation": "any",
